@@ -70,7 +70,7 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Azure Login
-      run: az login --service-principal -u ${{ secrets.AZURE_CLIENT_ID }} -p ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }} --output none
+      run: az login --service-principal -u 45bc44bc-ebc1-44a9-b89a-9e80040ae83f -p RyV8Q~YTdEjKQNQWWT4aOEmhoboMzKj8CLvYfb0_ --tenant 3db284cc-1c16-4e2f-b162-fde916c970ea --output none
       
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
