@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "MyRG" {
 }
 
 resource "azurerm_storage_account" "MySA" {
-  name                     = "myfirstsa0902202423"
+  name                     = "myfirstsa09022024231900"
   resource_group_name      = azurerm_resource_group.MyRG.name
   location                 = azurerm_resource_group.MyRG.location
   account_tier             = "Standard"
